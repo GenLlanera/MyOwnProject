@@ -1,0 +1,27 @@
+#Nav{
+    background-color:rgba(243, 148, 148, 0.199)
+}
+#Nav p{
+    text-align: center;
+}
+@media screen and (min-width: 601px){
+    #Nav p{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    #Nav p{
+        font-size: 30px;
+    }
+}
+#firstDiv{
+    background-color: rgba(90, 82, 82, 0.199);
+    width: 100%;
+}
+#firstDiv img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
